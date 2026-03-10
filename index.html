@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="logo.png">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -45,11 +47,14 @@
     }
 
     .nav-logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.25rem;
-      color: var(--gold-light);
       text-decoration: none;
-      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-logo img {
+      height: 42px;
+      width: auto;
     }
 
     .nav-links {
@@ -78,10 +83,13 @@
     }
 
     .hero-sunflower {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       display: block;
-      opacity: 0.85;
+    }
+
+    .hero-sunflower img {
+      height: 120px;
+      width: auto;
     }
 
     .hero h1 {
@@ -356,7 +364,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Sawdust &amp; Sunflowers</a>
+  <a href="#" class="nav-logo"><img src="logo.png" alt="Sawdust &amp; Sunflowers"></a>
   <ul class="nav-links">
     <li><a href="#featured">Featured</a></li>
     <li><a href="#about">About</a></li>
@@ -367,7 +375,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <span class="hero-sunflower" aria-hidden="true">🌻</span>
+  <span class="hero-sunflower"><img src="logo.png" alt="Sawdust &amp; Sunflowers logo"></span>
   <h1>Sawdust &amp; Sunflowers</h1>
   <p class="hero-tagline">Made by hand. Made with heart.</p>
   <p class="hero-blurb">
