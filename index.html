@@ -262,6 +262,48 @@
       font-style: italic;
     }
 
+    /* ── FIND US ── */
+    .findus { background: var(--cream); }
+
+    .findus-intro {
+      font-size: 1.05rem;
+      margin-bottom: 1.8rem;
+      max-width: 720px;
+    }
+
+    .market-dates {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .market-dates li {
+      background: var(--white);
+      border: 1px solid var(--tan);
+      border-left: 4px solid var(--gold);
+      padding: 0.55rem 1rem;
+      font-size: 0.95rem;
+      color: var(--bark);
+      font-weight: 600;
+    }
+
+    .findus-note {
+      font-size: 0.95rem;
+      color: var(--stone);
+    }
+
+    .findus-note a {
+      color: var(--forest);
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 2px solid var(--gold);
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .findus-note a:hover { color: var(--bark); border-color: var(--bark); }
+
     /* ── GALLERY ── */
     .gallery { background: var(--dark); }
 
@@ -387,6 +429,7 @@
   <ul class="nav-links">
     <li><a href="#featured">Featured</a></li>
     <li><a href="#about">About</a></li>
+    <li><a href="#findus">Find Us</a></li>
     <li><a href="#gallery">Gallery</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -466,6 +509,27 @@
       <img src="michelle-and-david.jpg" alt="Michelle and David Leitko">
       <figcaption>Michelle &amp; David Leitko</figcaption>
     </figure>
+  </div>
+</section>
+
+<!-- FIND US -->
+<section class="findus" id="findus">
+  <div class="section-inner">
+    <h2 class="section-title">Find Us</h2>
+    <div class="section-rule"></div>
+    <p class="findus-intro">
+      Come visit us at the
+      <a href="https://greenfieldfarmersmarket.com" target="_blank" rel="noopener" style="color:var(--forest);font-weight:700;text-decoration:none;border-bottom:2px solid var(--gold);">Greenfield Farmers&rsquo; Market</a>
+      at Court Square in downtown Greenfield, from 9&thinsp;am to 1:30&thinsp;pm.
+    </p>
+    <ul class="market-dates">
+      <li>Saturday, May 2</li>
+      <li>Saturday, June 6</li>
+      <li>Saturday, August 8</li>
+      <li>Saturday, August 29</li>
+      <li>Saturday, September 26</li>
+    </ul>
+    <p class="findus-note">All dates are 2025 &mdash; <a href="https://greenfieldfarmersmarket.com" target="_blank" rel="noopener">greenfieldfarmersmarket.com</a> for the full schedule.</p>
   </div>
 </section>
 
